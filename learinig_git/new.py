@@ -39,6 +39,7 @@ async def main():
             batch_num = (i // batch_size) + 1
             print(f"Completed batch {batch_num}")
             print("hello ")
+            print("bye")
 
 if __name__ == '__main__':
     asyncio.run(main())
