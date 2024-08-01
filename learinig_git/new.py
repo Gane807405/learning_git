@@ -38,6 +38,7 @@ async def main():
             await fetch_batch(session, batch_usernames)
             batch_num = (i // batch_size) + 1
             print(f"Completed batch {batch_num}")
+            print("hello ")
 
 if __name__ == '__main__':
     asyncio.run(main())
